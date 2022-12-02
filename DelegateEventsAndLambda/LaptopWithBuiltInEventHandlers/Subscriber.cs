@@ -1,16 +1,16 @@
-﻿namespace DelegateEventsAndLambda.Laptop
+﻿namespace DelegateEventsAndLambda.LaptopWithBuiltInEventHandlers
 {
     internal class Subscriber
     {
         public static void Run()
         {
             //Step Two
-            Laptop laptop = new();
+            /*Laptop laptop = new();
             laptop.AddClickMethod(HandleClick);
             laptop.AddAlertLowBatteryMethod(HandleLowBattery);
             laptop.AddShutdownMethod(HandleShutDown);
 
-            laptop.Start("ASDFGIOASDFG");
+            laptop.Start("ASDFGIOASDFG");*/
         }
 
         //Step One
@@ -27,6 +27,8 @@
         static void HandleShutDown(string message)
         {
             Console.WriteLine(message);
-        }       
+        }
+
+
     }
 }
