@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DelegateEventsAndLambda;
 using DelegateEventsAndLambda.FileConverter;
+using DelegateEventsAndLambda.Laptop;
 
 Console.WriteLine("Hello, World!");
 
@@ -9,4 +10,5 @@ UsingDelegates.Run();*/
 //DelegateReturnTypes.Run();
 //UsingFuncBuiltInDelegates.Run();
 
-Application.Run();
+//Application.Run();
+Subscriber.Run();
