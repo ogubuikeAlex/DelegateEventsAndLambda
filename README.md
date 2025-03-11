@@ -1,6 +1,6 @@
 # Bezao Session
 
-This repository contains code samples gave during live lectures for Bezao Session Eight.
+This repository contains code samples I gave during live lectures for Bezao Session Eight.
 
 ## Topics Covered
 - Delegate
